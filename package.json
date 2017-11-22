@@ -1,0 +1,33 @@
+{
+  "name": "react-web-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --progress --config webpack-dev.js",
+    "dev-server": "webpack-dev-server --progress --config webpack-dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^15.0.24",
+    "awesome-typescript-loader": "^3.0.4-rc.2",
+    "clean-webpack-plugin": "^0.1.14",
+    "copy-webpack-plugin": "^4.0.1",
+    "imagemin": "^5.2.2",
+    "imagemin-gifsicle": "^5.1.0",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "run-sequence": "^1.2.2",
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.1.5",
+    "uglify-js": "^2.7.4",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
